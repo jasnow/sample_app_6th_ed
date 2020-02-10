@@ -15,7 +15,7 @@ gem 'rake',                       '13.0.1'
 gem 'sassc-rails',                '2.1.2'
 gem 'webpacker',                  '4.0.7'
 gem 'turbolinks',                 '5.2.0'
-gem 'jbuilder',                   '2.9.1'
+gem 'jbuilder'
 gem 'bootsnap',                   '1.4.4', require: false
 
 group :development, :test do
