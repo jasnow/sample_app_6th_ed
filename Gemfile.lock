@@ -65,7 +65,7 @@ GEM
       execjs
     aws-eventstream (1.0.3)
     aws-partitions (1.273.0)
-    aws-sdk-core (3.90.0)
+    aws-sdk-core (3.90.1)
       aws-eventstream (~> 1.0, >= 1.0.2)
       aws-partitions (~> 1, >= 1.239.0)
       aws-sigv4 (~> 1.1)
@@ -104,8 +104,8 @@ GEM
     crass (1.0.6)
     erubi (1.9.0)
     execjs (2.7.0)
-    faker (2.1.2)
-      i18n (>= 0.8)
+    faker (2.10.2)
+      i18n (>= 1.6, < 2)
     ffi (1.12.2)
     formatador (0.2.5)
     globalid (0.4.2)
@@ -278,7 +278,7 @@ DEPENDENCIES
   bootstrap-will_paginate (= 1.0.0)
   byebug
   capybara
-  faker (= 2.1.2)
+  faker
   guard (= 2.15.0)
   guard-minitest (= 2.4.6)
   image_processing
