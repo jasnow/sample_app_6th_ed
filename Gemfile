@@ -13,7 +13,7 @@ gem 'bootstrap-sass',             '3.4.1'
 gem 'puma'
 gem 'rake',                       '13.0.1'
 gem 'sassc-rails',                '2.1.2'
-gem 'webpacker',                  '4.0.7'
+gem 'webpacker'
 gem 'turbolinks',                 '5.2.0'
 gem 'jbuilder'
 gem 'bootsnap', require: false
