@@ -1,0 +1,1 @@
+rvm use 2.7.7@ruby3.2-rails7.0 --create

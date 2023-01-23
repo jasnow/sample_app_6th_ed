@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'rails',                      '6.0.3.4'
+gem 'rails', '7.0.4.1'
 gem 'image_processing'
 gem 'mini_magick'
 gem 'active_storage_validations'
@@ -42,7 +42,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg'
+#HID:  gem 'pg'
   gem 'aws-sdk-s3', require: false
 end
 
