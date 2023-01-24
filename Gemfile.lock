@@ -171,6 +171,8 @@ GEM
       ruby-progressbar
     msgpack (1.6.0)
     nenv (0.3.0)
+    net-http (0.3.2)
+      uri
     net-imap (0.3.4)
       date
       net-protocol
@@ -275,6 +277,7 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
+    uri (0.10.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -320,6 +323,9 @@ DEPENDENCIES
   mini_magick
   minitest
   minitest-reporters
+  net-http
+  net-imap
+  net-smtp
   puma
   rails (= 7.0.4.1)
   rails-controller-testing
@@ -331,6 +337,7 @@ DEPENDENCIES
   sqlite3
   turbolinks
   tzinfo-data
+  uri (= 0.10.0)
   web-console
   webdrivers
   webpacker

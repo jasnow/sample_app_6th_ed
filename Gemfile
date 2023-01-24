@@ -18,6 +18,12 @@ gem 'turbolinks'
 gem 'jbuilder'
 gem 'bootsnap', require: false
 
+# 1/24/2023: Added for Rails 7.0
+gem "net-http"
+gem "net-smtp"
+gem "net-imap"
+gem "uri", "0.10.0"
+
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug',  platforms: [:mri, :mingw, :x64_mingw]
