@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem "rails", "7.0.4.1"
+gem "rails", "7.0.4.2"
 gem "image_processing"
 gem "mini_magick"
 gem "active_storage_validations"
@@ -18,11 +18,10 @@ gem "turbolinks"
 gem "jbuilder"
 gem "bootsnap", require: false
 
-# 1/24/2023: Added for Rails 7.0
 gem "net-http"
 gem "net-smtp"
 gem "net-imap"
-gem "uri", "0.10.0"
+gem "uri"
 
 group :development, :test do
   gem "sqlite3"
