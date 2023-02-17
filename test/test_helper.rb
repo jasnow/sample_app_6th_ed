@@ -1,3 +1,7 @@
+# To use simplecov, do this: COVERAGE=true rake
+require 'simplecov'
+SimpleCov.start if ENV['COVERAGE']
+
 ENV["RAILS_ENV"] ||= "test"
 require_relative "../config/environment"
 require "rails/test_help"

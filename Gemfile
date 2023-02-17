@@ -47,6 +47,7 @@ group :test do
   gem "minitest-reporters"
   gem "guard"
   gem "guard-minitest"
+  gem 'simplecov', require: false
 end
 
 group :production do
