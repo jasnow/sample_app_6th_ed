@@ -174,7 +174,7 @@ GEM
     method_source (1.0.0)
     mini_magick (4.12.0)
     mini_mime (1.1.2)
-    minitest (5.17.0)
+    minitest (5.18.0)
     minitest-reporters (1.6.0)
       ansi
       builder
@@ -275,7 +275,7 @@ GEM
       ffi (~> 1.12)
     ruby_audit (2.2.0)
       bundler-audit (~> 0.9.0)
-    ruby_parser (3.19.2)
+    ruby_parser (3.20.0)
       sexp_processor (~> 4.16)
     rubyzip (2.3.2)
     sassc (2.4.0)
@@ -302,7 +302,7 @@ GEM
     slim (5.0.0)
       temple (~> 0.10.0)
       tilt (>= 2.0.6, < 2.1)
-    spektr (0.4.0)
+    spektr (0.4.1)
       erubi
       haml
       parser (>= 2.6.0)
