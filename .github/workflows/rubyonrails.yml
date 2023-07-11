@@ -13,7 +13,6 @@ jobs:
     env:
       RAILS_ENV: test
       BUNDLE_FORCE_RUBY_PLATFORM: "true"
-      bundle lock --add-platform ruby
 
     steps:
       - name:
