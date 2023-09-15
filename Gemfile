@@ -2,6 +2,9 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem "rails", "7.0.8"
+
+gem 'mutex_m'
+
 gem "image_processing"
 gem "mini_magick"
 gem "active_storage_validations"

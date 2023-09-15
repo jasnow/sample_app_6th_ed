@@ -78,8 +78,8 @@ GEM
     autoprefixer-rails (10.4.15.0)
       execjs (~> 2)
     aws-eventstream (1.2.0)
-    aws-partitions (1.820.0)
-    aws-sdk-core (3.181.0)
+    aws-partitions (1.823.0)
+    aws-sdk-core (3.181.1)
       aws-eventstream (~> 1, >= 1.0.2)
       aws-partitions (~> 1, >= 1.651.0)
       aws-sigv4 (~> 1.5)
@@ -184,6 +184,7 @@ GEM
       minitest (>= 5.0)
       ruby-progressbar
     msgpack (1.7.2)
+    mutex_m (0.1.2)
     nenv (0.3.0)
     net-http (0.3.2)
       uri
@@ -332,7 +333,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.6.5)
+    sqlite3 (1.6.6)
       mini_portile2 (~> 2.8.0)
     standard (1.31.1)
       language_server-protocol (~> 3.17.0.2)
@@ -353,7 +354,7 @@ GEM
     strings-ansi (0.2.0)
     temple (0.10.2)
     thor (1.2.2)
-    tilt (2.2.0)
+    tilt (2.3.0)
     timeout (0.4.0)
     tty-color (0.6.0)
     tty-cursor (0.7.1)
@@ -419,6 +420,7 @@ DEPENDENCIES
   mini_magick
   minitest
   minitest-reporters
+  mutex_m
   net-http
   net-imap
   net-smtp
