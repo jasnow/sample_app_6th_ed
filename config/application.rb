@@ -14,6 +14,6 @@ module SampleApp
     # Include the authenticity token in remote forms.
     config.action_view.embed_authenticity_token_in_remote_forms = true
 
-    config.active_record.legacy_connection_handling = false
+    config.active_support.cache_format_version = 7.0
   end
 end
