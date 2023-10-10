@@ -1,0 +1,66 @@
+[1mdiff --git a/Gemfile.lock b/Gemfile.lock[m
+[1mindex 32d5113..f28029c 100644[m
+[1m--- a/Gemfile.lock[m
+[1m+++ b/Gemfile.lock[m
+[36m@@ -178,7 +178,7 @@[m [mGEM[m
+     listen (3.8.0)[m
+       rb-fsevent (~> 0.10, >= 0.10.3)[m
+       rb-inotify (~> 0.9, >= 0.9.10)[m
+[31m-    loofah (2.21.3)[m
+[32m+[m[32m    loofah (2.21.4)[m
+       crass (~> 1.0.2)[m
+       nokogiri (>= 1.12.0)[m
+     lumberjack (1.2.9)[m
+[36m@@ -204,7 +204,7 @@[m [mGEM[m
+     nenv (0.3.0)[m
+     net-http (0.3.2)[m
+       uri[m
+[31m-    net-imap (0.4.0)[m
+[32m+[m[32m    net-imap (0.4.1)[m
+       date[m
+       net-protocol[m
+     net-pop (0.1.2)[m
+[36m@@ -285,7 +285,7 @@[m [mGEM[m
+       ffi (~> 1.0)[m
+     rdoc (6.5.0)[m
+       psych (>= 4.0.0)[m
+[31m-    regexp_parser (2.8.1)[m
+[32m+[m[32m    regexp_parser (2.8.2)[m
+     reline (0.3.9)[m
+       io-console (~> 0.5)[m
+     rexml (3.2.6)[m
+[36m@@ -323,7 +323,7 @@[m [mGEM[m
+       sprockets (> 3.0)[m
+       sprockets-rails[m
+       tilt[m
+[31m-    selenium-webdriver (4.13.1)[m
+[32m+[m[32m    selenium-webdriver (4.14.0)[m
+       rexml (~> 3.2, >= 3.2.5)[m
+       rubyzip (>= 1.2.2, < 3.0)[m
+       websocket (~> 1.0)[m
+[36m@@ -362,20 +362,20 @@[m [mGEM[m
+       actionpack (>= 5.2)[m
+       activesupport (>= 5.2)[m
+       sprockets (>= 3.0.0)[m
+[31m-    sqlite3 (1.6.6)[m
+[32m+[m[32m    sqlite3 (1.6.7)[m
+       mini_portile2 (~> 2.8.0)[m
+[31m-    standard (1.31.1)[m
+[32m+[m[32m    standard (1.31.2)[m
+       language_server-protocol (~> 3.17.0.2)[m
+       lint_roller (~> 1.0)[m
+[31m-      rubocop (~> 1.56.2)[m
+[32m+[m[32m      rubocop (~> 1.56.4)[m
+       standard-custom (~> 1.0.0)[m
+       standard-performance (~> 1.2)[m
+     standard-custom (1.0.2)[m
+       lint_roller (~> 1.0)[m
+       rubocop (~> 1.50)[m
+[31m-    standard-performance (1.2.0)[m
+[32m+[m[32m    standard-performance (1.2.1)[m
+       lint_roller (~> 1.1)[m
+[31m-      rubocop-performance (~> 1.19.0)[m
+[32m+[m[32m      rubocop-performance (~> 1.19.1)[m
+     stringio (3.0.9)[m
+     strings (0.2.1)[m
+       strings-ansi (~> 0.2)[m
