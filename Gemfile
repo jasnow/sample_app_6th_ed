@@ -1,8 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem "rails", "7.2.0.beta2"
-gem 'net-pop', github: 'ruby/net-pop' # 6/28/2024: Required for RUBY 3.3.3
+gem "rails", "7.2.0.beta3"
 
 gem "image_processing"
 gem "mini_magick"
