@@ -8,7 +8,7 @@ gem "mini_magick"
 gem "active_storage_validations"
 gem "bcrypt"
 gem "faker"
-gem "will_paginate", "3.3.0" # LOCKED 5/30/2023: Avoid Template::Error's. 
+gem "will_paginate"
 gem "bootstrap-will_paginate"
 gem "bootstrap-sass"
 gem "puma"
