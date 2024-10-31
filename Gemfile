@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem "rails", "8.0.0.beta1"
+gem "rails", "8.0.0.rc2"
 
 gem "image_processing"
 gem "mini_magick"
