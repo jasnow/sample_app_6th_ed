@@ -26,7 +26,7 @@ gem "uri"
 
 group :development, :test do
   gem "sqlite3"
-  gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
+  gem "byebug", platforms: [:mri, :windows]
   gem "standard"
   gem "ruby_audit"
   gem "spektr"
@@ -55,6 +55,6 @@ group :production do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "tzinfo-data", platforms: [:windows, :jruby]
 
 gem 'simplecov', require: false, group: :test
