@@ -15,8 +15,11 @@ jobs:
       BUNDLE_FORCE_RUBY_PLATFORM: "true"
 
     steps:
-      - name:
-        uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name:
         uses: ruby/setup-ruby@v1
